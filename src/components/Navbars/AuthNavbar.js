@@ -1,4 +1,3 @@
-
 import {
   Box,
   Button,
@@ -466,7 +465,7 @@ export default function AuthNavbar(props) {
           h="14px"
           fontWeight="2000"
         />
-        <Menu isOpen={isOpenApplication}>
+        {/* <Menu isOpen={isOpenApplication}>
           <MenuList
             p="22px"
             cursor="default"
@@ -479,7 +478,7 @@ export default function AuthNavbar(props) {
               {createApplicationLinks(applicationsObject.items)}
             </Grid>
           </MenuList>
-        </Menu>
+        </Menu> */}
       </Stack>
       <Stack
         direction="row"
