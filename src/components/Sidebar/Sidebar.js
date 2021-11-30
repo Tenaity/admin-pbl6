@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Purity UI Dashboard PRO - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/purity-ui-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com/)
-
-* Design by Creative Tim & Coded by Simmmple
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
-
-/*eslint-disable*/
 import { HamburgerIcon, QuestionIcon } from "@chakra-ui/icons";
 // chakra imports
 import {
@@ -41,10 +23,12 @@ import {
   Text,
   useColorModeValue,
   useDisclosure,
+  Image,
 } from "@chakra-ui/react";
 import SidebarHelpImage from "assets/img/SidebarHelpImage.png";
 import IconBox from "components/Icons/IconBox";
 import { CreativeTimLogo } from "components/Icons/Icons";
+import GoGo from "../../assets/img/logo2.png";
 import {
   renderThumbDark,
   renderThumbLight,
@@ -443,18 +427,7 @@ function Sidebar(props) {
         alignItems="center"
         fontSize="11px"
       >
-        <CreativeTimLogo
-          w={sidebarWidth === 275 ? "32px" : "40px"}
-          h={sidebarWidth === 275 ? "32px" : "40px"}
-          me="10px"
-        />
-        <Text
-          fontSize="xs"
-          mt="3px"
-          display={sidebarWidth === 275 ? "block" : "none"}
-        >
-          {logoText}
-        </Text>
+        <Image src={GoGo} h="50" w="50" />
       </Link>
       <HSeparator />
     </Box>
@@ -466,7 +439,7 @@ function Sidebar(props) {
       <Stack direction="column" mb="40px">
         <Box>{links}</Box>
       </Stack>
-      <Flex
+      {/* <Flex
         borderRadius="15px"
         flexDirection="column"
         bgImage={SidebarHelpImage}
@@ -520,7 +493,7 @@ function Sidebar(props) {
             DOCUMENTATION
           </Button>
         </Link>
-      </Flex>
+      </Flex> */}
     </Box>
   );
 
