@@ -1,4 +1,3 @@
-
 import {
   CartIcon,
   DocumentIcon,
@@ -20,21 +19,21 @@ import Settings from "views/Pages/Account/Settings.js";
 import Teams from "views/Pages/Profile/Teams.js";
 
 const dashRoutes = [
-  {
-    name: "Dashboard",
-    path: "/dashboard",
-    icon: <HomeIcon color="inherit" />,
-    authIcon: <HomeIcon color="inherit" />,
-    collapse: true,
-    items: [
-      {
-        name: "Default",
-        path: "/dashboard/default",
-        component: Default,
-        layout: "/admin",
-      },
-    ],
-  },
+  // {
+  //   name: "Dashboard",
+  //   path: "/dashboard",
+  //   icon: <HomeIcon color="inherit" />,
+  //   authIcon: <HomeIcon color="inherit" />,
+  //   collapse: true,
+  //   items: [
+  //     {
+  //       name: "Default",
+  //       path: "/dashboard/default",
+  //       component: Default,
+  //       layout: "/admin",
+  //     },
+  //   ],
+  // },
   {
     name: "PAGES",
     category: "pages",
@@ -45,21 +44,21 @@ const dashRoutes = [
         collapse: true,
         icon: <DocumentIcon color="inherit" />,
         items: [
-          {
-            name: "Profile",
-            path: "/profile",
-            collapse: true,
-            authIcon: <HomeIcon color="inherit" />,
-            items: [
-              {
-                name: "Teams",
-                secondaryNavbar: true,
-                path: "/pages/profile/teams",
-                component: Teams,
-                layout: "/admin",
-              },
-            ],
-          },
+          // {
+          //   name: "Profile",
+          //   path: "/profile",
+          //   collapse: true,
+          //   authIcon: <HomeIcon color="inherit" />,
+          //   items: [
+          //     {
+          //       name: "Teams",
+          //       secondaryNavbar: true,
+          //       path: "/pages/profile/teams",
+          //       component: Teams,
+          //       layout: "/admin",
+          //     },
+          //   ],
+          // },
           {
             name: "Account",
             path: "/account",
@@ -72,18 +71,18 @@ const dashRoutes = [
                 component: Settings,
                 layout: "/admin",
               },
-              {
-                name: "Billing",
-                component: Billing,
-                path: "/pages/account/billing",
-                layout: "/admin",
-              },
-              {
-                name: "Invoice",
-                component: Invoice,
-                path: "/pages/account/invoice",
-                layout: "/admin",
-              },
+              // {
+              //   name: "Billing",
+              //   component: Billing,
+              //   path: "/pages/account/billing",
+              //   layout: "/admin",
+              // },
+              // {
+              //   name: "Invoice",
+              //   component: Invoice,
+              //   path: "/pages/account/invoice",
+              //   layout: "/admin",
+              // },
             ],
           },
         ],
@@ -114,12 +113,6 @@ const dashRoutes = [
                 path: "/ecommerce/products/edit-product",
                 layout: "/admin",
               },
-              {
-                name: "Product Page",
-                component: ProductPage,
-                path: "/ecommerce/products/product-page",
-                layout: "/admin",
-              },
             ],
           },
           {
@@ -144,44 +137,44 @@ const dashRoutes = [
           },
         ],
       },
-      {
-        name: "Authentication",
-        path: "/authentication",
-        icon: <PersonIcon color="inherit" />,
-        collapse: true,
-        items: [
-          {
-            name: "Sign In",
-            path: "/authentication/sign-in",
-            collapse: true,
-            authIcon: <DocumentIcon color="inherit" />,
-            items: [
-              {
-                name: "Basic",
-                secondaryNavbar: true,
-                component: SignInBasic,
-                path: "/authentication/sign-in/basic",
-                layout: "/auth",
-              },
-            ],
-          },
-          {
-            name: "Sign Up",
-            path: "/authentication/sign-up",
-            collapse: true,
-            authIcon: <DocumentIcon color="inherit" />,
-            items: [
-              {
-                name: "Basic",
-                secondaryNavbar: true,
-                component: SignUpBasic,
-                path: "/authentication/sign-up/basic",
-                layout: "/auth",
-              },
-            ],
-          },
-        ],
-      },
+      // {
+      //   name: "Authentication",
+      //   path: "/authentication",
+      //   icon: <PersonIcon color="inherit" />,
+      //   collapse: true,
+      //   items: [
+      //     {
+      //       name: "Sign In",
+      //       path: "/authentication/sign-in",
+      //       collapse: true,
+      //       authIcon: <DocumentIcon color="inherit" />,
+      //       items: [
+      //         {
+      //           name: "Basic",
+      //           secondaryNavbar: true,
+      //           component: SignInBasic,
+      //           path: "/authentication/sign-in/basic",
+      //           layout: "/auth",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       name: "Sign Up",
+      //       path: "/authentication/sign-up",
+      //       collapse: true,
+      //       authIcon: <DocumentIcon color="inherit" />,
+      //       items: [
+      //         {
+      //           name: "Basic",
+      //           secondaryNavbar: true,
+      //           component: SignUpBasic,
+      //           path: "/authentication/sign-up/basic",
+      //           layout: "/auth",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      // },
     ],
   },
 ];
