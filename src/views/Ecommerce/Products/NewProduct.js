@@ -809,7 +809,7 @@ function NewProduct() {
                         wrap="wrap"
                         border="1px solid lightgray"
                         borderRadius="15px"
-                        _focus={{ borderColor: "teal.300" }}
+                        _focus={{ borderColor: "green.300" }}
                         minH="40px"
                         cursor="text"
                       >

@@ -224,7 +224,7 @@ function BasicTable(props) {
                     w="40px"
                     h="40px"
                     borderRadius="160px"
-                    bg={pageNumber === pageIndex + 1 ? "teal.300" : "#fff"}
+                    bg={pageNumber === pageIndex + 1 ? "green.300" : "#fff"}
                     border="1px solid lightgray"
                     _hover={{
                       bg: "gray.200",

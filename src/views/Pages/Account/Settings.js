@@ -481,7 +481,7 @@ function Settings() {
                     Switch to {toggle ? "invisible" : "visible"}
                   </Text>
                   <Switch
-                    colorScheme="teal"
+                    colorScheme="green"
                     onChange={() => setToggle(!toggle)}
                   />
                 </Flex>
@@ -682,7 +682,7 @@ function Settings() {
                       wrap="wrap"
                       border="1px solid lightgray"
                       borderRadius="15px"
-                      _focus={{ borderColor: "teal.300" }}
+                      _focus={{ borderColor: "green.300" }}
                       minH="60px"
                       cursor="text"
                     >
@@ -1045,7 +1045,7 @@ function Settings() {
                       >
                         Enabled
                       </Text>
-                      <Switch colorScheme="teal" defaultIsChecked />
+                      <Switch colorScheme="green" defaultIsChecked />
                     </Flex>
                   </Flex>
                   <Stack direction="column" w="100%" spacing="18px" ps="50px">
@@ -1075,7 +1075,7 @@ function Settings() {
                       <Tooltip
                         hasArrow
                         label="Copy!"
-                        bg="teal.300"
+                        bg="green.300"
                         placement="top"
                       >
                         <Input
@@ -1149,7 +1149,7 @@ function Settings() {
                     >
                       Enabled
                     </Text>
-                    <Switch colorScheme="teal" defaultIsChecked />
+                    <Switch colorScheme="green" defaultIsChecked />
                   </Flex>
                 </Flex>
                 <HSeparator />
@@ -1174,7 +1174,7 @@ function Settings() {
                     >
                       Enabled
                     </Text>
-                    <Switch colorScheme="teal" defaultIsChecked />
+                    <Switch colorScheme="green" defaultIsChecked />
                   </Flex>
                 </Flex>
                 <HSeparator />
@@ -1191,7 +1191,7 @@ function Settings() {
                     </Flex>
                   </Flex>
                   <Flex align="center">
-                    <Switch colorScheme="teal" />
+                    <Switch colorScheme="green" />
                   </Flex>
                 </Flex>
               </Stack>
@@ -1282,13 +1282,13 @@ function Settings() {
                       </Flex>
                     </Td>
                     <Td>
-                      <Switch colorScheme="teal" />
+                      <Switch colorScheme="green" />
                     </Td>
                     <Td>
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                     <Td>
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                   </Tr>
                   <Tr>
@@ -1312,13 +1312,13 @@ function Settings() {
                       </Flex>
                     </Td>
                     <Td>
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                     <Td>
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                     <Td>
-                      <Switch colorScheme="teal" />
+                      <Switch colorScheme="green" />
                     </Td>
                   </Tr>
                   <Tr>
@@ -1342,13 +1342,13 @@ function Settings() {
                       </Flex>
                     </Td>
                     <Td>
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                     <Td>
-                      <Switch colorScheme="teal" />
+                      <Switch colorScheme="green" />
                     </Td>
                     <Td>
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                   </Tr>
                   <Tr>
@@ -1365,13 +1365,13 @@ function Settings() {
                       </Flex>
                     </Td>
                     <Td border="none">
-                      <Switch colorScheme="teal" />
+                      <Switch colorScheme="green" />
                     </Td>
                     <Td border="none">
-                      <Switch defaultIsChecked colorScheme="teal" />
+                      <Switch defaultIsChecked colorScheme="green" />
                     </Td>
                     <Td border="none">
-                      <Switch colorScheme="teal" />
+                      <Switch colorScheme="green" />
                     </Td>
                   </Tr>
                 </Tbody>
@@ -1438,10 +1438,10 @@ function Settings() {
                     <Text color="gray.400" fontSize="md" fontWeight="normal">
                       EU
                     </Text>
-                    <Button variant="transparent-with-icon" color="teal.300">
+                    <Button variant="transparent-with-icon" color="green.300">
                       <Flex
                         align="center"
-                        color="teal.300"
+                        color="green.300"
                         w="100%"
                         fontSize="sm"
                       >
@@ -1494,10 +1494,10 @@ function Settings() {
                     <Text color="gray.400" fontSize="md" fontWeight="normal">
                       US
                     </Text>
-                    <Button variant="transparent-with-icon" color="teal.300">
+                    <Button variant="transparent-with-icon" color="green.300">
                       <Flex
                         align="center"
-                        color="teal.300"
+                        color="green.300"
                         w="100%"
                         fontSize="sm"
                       >
@@ -1551,10 +1551,10 @@ function Settings() {
                     <Text color="gray.400" fontSize="md" fontWeight="normal">
                       US
                     </Text>
-                    <Button variant="transparent-with-icon" color="teal.300">
+                    <Button variant="transparent-with-icon" color="green.300">
                       <Flex
                         align="center"
-                        color="teal.300"
+                        color="green.300"
                         w="100%"
                         fontSize="sm"
                       >
@@ -1611,7 +1611,7 @@ function Settings() {
                 w="100%"
               >
                 <Flex align="center" mb={{ sm: "16px", lg: null }}>
-                  <Switch colorScheme="teal" me="22px" />
+                  <Switch colorScheme="green" me="22px" />
                   <Flex direction="column">
                     <Text
                       fontSize="sm"

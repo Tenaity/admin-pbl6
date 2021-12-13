@@ -1,4 +1,3 @@
-
 import {
   Box,
   Flex,
@@ -39,7 +38,7 @@ import React from "react";
 
 export default function Default() {
   // Chakra Color Mode
-  const iconTeal = useColorModeValue("teal.300", "teal.300");
+  const icongreen = useColorModeValue("green.300", "green.300");
   const iconBoxInside = useColorModeValue("white", "white");
   const textColor = useColorModeValue("gray.700", "white");
   return (
@@ -112,7 +111,7 @@ export default function Default() {
                       </StatHelpText>
                     </Flex>
                   </Stat>
-                  <IconBox as="box" h={"45px"} w={"45px"} bg={iconTeal}>
+                  <IconBox as="box" h={"45px"} w={"45px"} bg={icongreen}>
                     <WalletIcon h={"24px"} w={"24px"} color={iconBoxInside} />
                   </IconBox>
                 </Flex>
@@ -153,7 +152,7 @@ export default function Default() {
                     </Flex>
                   </Stat>
                   <Spacer />
-                  <IconBox as="box" h={"45px"} w={"45px"} bg={iconTeal}>
+                  <IconBox as="box" h={"45px"} w={"45px"} bg={icongreen}>
                     <DocumentIcon h={"24px"} w={"24px"} color={iconBoxInside} />
                   </IconBox>
                 </Flex>
@@ -193,7 +192,7 @@ export default function Default() {
                       </StatHelpText>
                     </Flex>
                   </Stat>
-                  <IconBox as="box" h={"45px"} w={"45px"} bg={iconTeal}>
+                  <IconBox as="box" h={"45px"} w={"45px"} bg={icongreen}>
                     <GlobeIcon h={"24px"} w={"24px"} color={iconBoxInside} />
                   </IconBox>
                 </Flex>
@@ -237,7 +236,7 @@ export default function Default() {
                       </StatHelpText>
                     </Flex>
                   </Stat>
-                  <IconBox as="box" h={"45px"} w={"45px"} bg={iconTeal}>
+                  <IconBox as="box" h={"45px"} w={"45px"} bg={icongreen}>
                     <CartIcon h={"24px"} w={"24px"} color={iconBoxInside} />
                   </IconBox>
                 </Flex>
@@ -390,8 +389,7 @@ export default function Default() {
                 maxH={{ lg: "222px" }}
                 h="222px"
                 borderRadius="12px"
-              >
-              </Box>
+              ></Box>
               <Flex
                 direction="column"
                 mt="24px"
@@ -425,7 +423,7 @@ export default function Default() {
                       as="box"
                       h={"30px"}
                       w={"30px"}
-                      bg={iconTeal}
+                      bg={icongreen}
                       me="6px"
                     >
                       <WalletIcon h={"15px"} w={"15px"} color={iconBoxInside} />
@@ -445,7 +443,7 @@ export default function Default() {
                   </Text>
                   <Progress
                     maxW="105px"
-                    colorScheme="teal"
+                    colorScheme="green"
                     borderRadius="12px"
                     h="5px"
                     value={20}
@@ -457,7 +455,7 @@ export default function Default() {
                       as="box"
                       h={"30px"}
                       w={"30px"}
-                      bg={iconTeal}
+                      bg={icongreen}
                       me="6px"
                     >
                       <RocketIcon h={"15px"} w={"15px"} color={iconBoxInside} />
@@ -477,7 +475,7 @@ export default function Default() {
                   </Text>
                   <Progress
                     maxW="105px"
-                    colorScheme="teal"
+                    colorScheme="green"
                     borderRadius="12px"
                     h="5px"
                     value={90}
@@ -489,7 +487,7 @@ export default function Default() {
                       as="box"
                       h={"30px"}
                       w={"30px"}
-                      bg={iconTeal}
+                      bg={icongreen}
                       me="6px"
                     >
                       <CartIcon h={"15px"} w={"15px"} color={iconBoxInside} />
@@ -509,7 +507,7 @@ export default function Default() {
                   </Text>
                   <Progress
                     maxW="105px"
-                    colorScheme="teal"
+                    colorScheme="green"
                     borderRadius="12px"
                     h="5px"
                     value={30}
@@ -521,7 +519,7 @@ export default function Default() {
                       as="box"
                       h={"30px"}
                       w={"30px"}
-                      bg={iconTeal}
+                      bg={icongreen}
                       me="6px"
                     >
                       <StatsIcon h={"15px"} w={"15px"} color={iconBoxInside} />
@@ -541,7 +539,7 @@ export default function Default() {
                   </Text>
                   <Progress
                     maxW="105px"
-                    colorScheme="teal"
+                    colorScheme="green"
                     borderRadius="12px"
                     h="5px"
                     value={50}
@@ -565,8 +563,7 @@ export default function Default() {
               </Text>
             </Flex>
           </CardHeader>
-          <Box w="100%" h={{ sm: "300px" }} ps="8px">
-          </Box>
+          <Box w="100%" h={{ sm: "300px" }} ps="8px"></Box>
         </Card>
       </Grid>
     </Flex>

@@ -5,7 +5,7 @@ export const globalStyles = {
     gray: {
       700: "#1f2733",
     },
-    teal: {
+    green: {
       500: "rgb(79, 209, 197)",
     },
   },

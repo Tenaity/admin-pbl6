@@ -38,7 +38,7 @@ import {
 
 function Billing() {
   // Chakra color mode
-  const iconTeal = useColorModeValue("teal.300", "teal.300");
+  const icongreen = useColorModeValue("green.300", "green.300");
   const textColor = useColorModeValue("gray.700", "white");
   const borderColor = useColorModeValue("#dee2e6", "gray.500");
   const bgButton = useColorModeValue(
@@ -115,7 +115,7 @@ function Billing() {
             <Card p="16px" display="flex" align="center" justify="center">
               <CardBody>
                 <Flex direction="column" align="center" w="100%" py="14px">
-                  <IconBox as="box" h={"60px"} w={"60px"} bg={iconTeal}>
+                  <IconBox as="box" h={"60px"} w={"60px"} bg={icongreen}>
                     <Icon h={"24px"} w={"24px"} color="white" as={FaWallet} />
                   </IconBox>
                   <Flex
@@ -154,7 +154,7 @@ function Billing() {
                   w="100%"
                   py="14px"
                 >
-                  <IconBox as="box" h={"60px"} w={"60px"} bg={iconTeal}>
+                  <IconBox as="box" h={"60px"} w={"60px"} bg={icongreen}>
                     <Icon h={"24px"} w={"24px"} color="white" as={FaPaypal} />
                   </IconBox>
                   <Flex
@@ -283,9 +283,9 @@ function Billing() {
                 Invoices
               </Text>
               <Button
-                colorScheme="teal"
-                borderColor="teal.300"
-                color="teal.300"
+                colorScheme="green"
+                borderColor="green.300"
+                color="green.300"
                 variant="outline"
                 fontSize="xs"
                 p="8px 32px"

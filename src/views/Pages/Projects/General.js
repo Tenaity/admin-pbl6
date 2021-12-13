@@ -38,7 +38,7 @@ import { IoEllipsisHorizontalSharp } from "react-icons/io5";
 function General() {
   const textColor = useColorModeValue("gray.700", "white");
   const iconBoxInside = useColorModeValue("white", "white");
-  const iconTeal = useColorModeValue("teal.300", "teal.300");
+  const icongreen = useColorModeValue("green.300", "green.300");
   const bgSalaryCard = useColorModeValue("gray.50", "gray.600");
   const bgButton = useColorModeValue(
     "linear-gradient(81.62deg, #313860 2.25%, #151928 79.87%)",
@@ -362,7 +362,7 @@ function General() {
               <HSeparator my="14px" />
               <Flex>
                 <Flex
-                  bgColor="teal.300"
+                  bgColor="green.300"
                   borderRadius="12px"
                   minWidth="3px"
                   h="100%"
@@ -372,7 +372,7 @@ function General() {
                     <Flex align="center">
                       <Checkbox
                         me="16px"
-                        colorScheme="teal"
+                        colorScheme="green"
                         size="lg"
                         defaultIsChecked
                       />
@@ -436,7 +436,7 @@ function General() {
                 <Flex direction="column" p="12px 22px" w="100%">
                   <Flex justify="space-between" mb="18px">
                     <Flex align="center">
-                      <Checkbox me="16px" colorScheme="teal" size="lg" />
+                      <Checkbox me="16px" colorScheme="green" size="lg" />
                       <Text color={textColor} fontSize="md" fontWeight="bold">
                         Management discussion
                       </Text>
@@ -497,7 +497,7 @@ function General() {
                 <Flex direction="column" p="12px 22px" w="100%">
                   <Flex justify="space-between" mb="18px">
                     <Flex align="center">
-                      <Checkbox me="16px" colorScheme="teal" size="lg" />
+                      <Checkbox me="16px" colorScheme="green" size="lg" />
                       <Text color={textColor} fontSize="md" fontWeight="bold">
                         New channel distribution
                       </Text>
@@ -560,7 +560,7 @@ function General() {
                     <Flex align="center">
                       <Checkbox
                         me="16px"
-                        colorScheme="teal"
+                        colorScheme="green"
                         size="lg"
                         defaultIsChecked
                       />
@@ -634,7 +634,7 @@ function General() {
                       as="box"
                       h={"45px"}
                       w={"45px"}
-                      bg={iconTeal}
+                      bg={icongreen}
                       me="16px"
                     >
                       <HomeIcon h={"24px"} w={"24px"} color={iconBoxInside} />
@@ -653,7 +653,7 @@ function General() {
                       60%
                     </Text>
                     <Progress
-                      colorScheme="teal"
+                      colorScheme="green"
                       size="sm"
                       borderRadius="15px"
                       value={60}
@@ -672,7 +672,7 @@ function General() {
                       as="box"
                       h={"45px"}
                       w={"45px"}
-                      bg={iconTeal}
+                      bg={icongreen}
                       me="16px"
                     >
                       <DocumentIcon
@@ -694,7 +694,7 @@ function General() {
                     <Flex align="center">
                       <Icon
                         as={BsCircleFill}
-                        color="teal.300"
+                        color="green.300"
                         w="10px"
                         h="10px"
                         me="8px"

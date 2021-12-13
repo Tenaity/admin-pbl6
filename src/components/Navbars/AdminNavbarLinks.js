@@ -32,7 +32,7 @@ export default function HeaderLinks(props) {
   const { variant, children, fixed, secondary, onOpen, ...rest } = props;
 
   // Chakra Color Mode
-  let mainTeal = useColorModeValue("teal.300", "teal.300");
+  let maingreen = useColorModeValue("green.300", "green.300");
   let inputBg = useColorModeValue("white", "gray.800");
   let mainText = useColorModeValue("gray.700", "gray.200");
   let navbarIcon = useColorModeValue("gray.500", "gray.200");
@@ -59,10 +59,10 @@ export default function HeaderLinks(props) {
         }}
         me={{ sm: "auto", md: "20px" }}
         _focus={{
-          borderColor: { mainTeal },
+          borderColor: { maingreen },
         }}
         _active={{
-          borderColor: { mainTeal },
+          borderColor: { maingreen },
         }}
       >
         <InputLeftElement

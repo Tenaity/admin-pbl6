@@ -43,7 +43,7 @@ function OrderDetails() {
               <Flex direction="column">
                 <Text fontSize="sm" color="gray.400" fontWeight="normal">
                   Order no.{" "}
-                  <Text as="span" color="teal.300" fontWeight="bold">
+                  <Text as="span" color="green.300" fontWeight="bold">
                     241342
                   </Text>{" "}
                   from{" "}
@@ -168,7 +168,7 @@ function OrderDetails() {
                   <Flex direction="column" align="center" h="100%" me="20px">
                     <Icon
                       as={CgShapeCircle}
-                      color="teal.300"
+                      color="green.300"
                       h={"30px"}
                       w={"30px"}
                       zIndex="1"
@@ -194,7 +194,7 @@ function OrderDetails() {
                   <Flex direction="column" align="center" h="100%" me="20px">
                     <Icon
                       as={CgShapeCircle}
-                      color="teal.300"
+                      color="green.300"
                       h={"30px"}
                       w={"30px"}
                       zIndex="1"

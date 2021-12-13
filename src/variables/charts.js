@@ -177,8 +177,8 @@ export const lineChartOptionsGeneral = {
   },
   markers: {
     size: 3,
-    colors: "teal",
-    strokeColors: "teal",
+    colors: "green",
+    strokeColors: "green",
     strokeWidth: 2,
     strokeOpacity: 0.9,
     strokeDashArray: 0,
@@ -341,8 +341,8 @@ export const lineChartOptionsWidgets2 = {
   },
   markers: {
     size: 3,
-    colors: "teal",
-    strokeColors: "teal",
+    colors: "green",
+    strokeColors: "green",
     strokeWidth: 2,
     strokeOpacity: 0.9,
     strokeDashArray: 0,

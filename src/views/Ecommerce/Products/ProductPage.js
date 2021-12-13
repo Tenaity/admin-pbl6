@@ -332,7 +332,7 @@ function ProductPage() {
                   <Td>
                     <Progress
                       size="xs"
-                      colorScheme="teal"
+                      colorScheme="green"
                       value={70}
                       borderRadius="12px"
                     />
@@ -376,7 +376,7 @@ function ProductPage() {
                   <Td>
                     <Progress
                       size="xs"
-                      colorScheme="teal"
+                      colorScheme="green"
                       value={90}
                       borderRadius="12px"
                     />

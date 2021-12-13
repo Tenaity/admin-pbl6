@@ -255,7 +255,7 @@ class ComponentToPrint extends React.Component {
               <Button
                 onClick={() => this.props.handlePrint()}
                 variant="no-hover"
-                bg="teal.300"
+                bg="green.300"
                 w="100px"
                 h="35px"
                 fontSize="xs"

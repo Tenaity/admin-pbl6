@@ -309,7 +309,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -324,7 +324,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -339,7 +339,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -354,7 +354,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -369,7 +369,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -384,7 +384,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -399,7 +399,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -414,7 +414,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -429,7 +429,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -444,7 +444,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -459,7 +459,7 @@ function Teams() {
               <Link
                 href="#"
                 border="1px solid"
-                borderColor="teal.300"
+                borderColor="green.300"
                 borderRadius="50%"
                 mb="6px"
                 p="4px"
@@ -501,7 +501,7 @@ function Teams() {
                   </Text>
                 </Flex>
               </Flex>
-              <Button variant="no-hover" bg="teal.300" p="8px 32px">
+              <Button variant="no-hover" bg="green.300" p="8px 32px">
                 <Flex align="center" color="#fff" justifyContent="center">
                   <Icon
                     as={AiOutlinePlus}
@@ -722,7 +722,7 @@ function Teams() {
                 <Input
                   placeholder="Write your comment..."
                   borderRadius="15px"
-                  _focus={{ borderColor: "teal.300" }}
+                  _focus={{ borderColor: "green.300" }}
                 />
               </Flex>
             </Flex>
@@ -897,7 +897,7 @@ function Teams() {
                 <Flex justify="space-between" align="center">
                   <Button
                     variant="no-hover"
-                    bg="teal.300"
+                    bg="green.300"
                     p="0px 40px"
                     h="35px"
                   >
@@ -939,7 +939,7 @@ function Teams() {
                   mb="8px"
                 >
                   You have an upcoming video call for{" "}
-                  <Text as="span" color="teal.300">
+                  <Text as="span" color="green.300">
                     Chakra Design
                   </Text>{" "}
                   at 04:50 PM.
@@ -954,7 +954,7 @@ function Teams() {
                 <Flex justify="space-between" align="center">
                   <Button
                     variant="no-hover"
-                    bg="teal.300"
+                    bg="green.300"
                     p="0px 40px"
                     h="35px"
                   >

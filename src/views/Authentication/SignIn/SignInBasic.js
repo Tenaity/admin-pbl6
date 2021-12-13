@@ -19,10 +19,10 @@ import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 import axios from "axios";
 import { useHistory } from "react-router";
 function SignUp() {
-  const titleColor = useColorModeValue("teal.300", "teal.200");
+  const titleColor = useColorModeValue("green.300", "green.200");
   const textColor = useColorModeValue("gray.700", "white");
   const bgColor = useColorModeValue("white", "gray.700");
-  const bgIcons = useColorModeValue("teal.200", "rgba(255, 255, 255, 0.5)");
+  const bgIcons = useColorModeValue("green.200", "rgba(255, 255, 255, 0.5)");
   const history = useHistory();
   const [errorMessage, setErrorMessage] = useState("");
   const [userInput, setUserInput] = useState({ email: "", password: "" });
@@ -221,7 +221,7 @@ function SignUp() {
               />
             </FormControl>
             <FormControl display="flex" alignItems="center" mb="24px">
-              <Switch id="remember-login" colorScheme="teal" me="10px" />
+              <Switch id="remember-login" colorScheme="green" me="10px" />
               <FormLabel htmlFor="remember-login" mb="0" fontWeight="normal">
                 Remember me
               </FormLabel>
@@ -240,7 +240,7 @@ function SignUp() {
             )}
             <Button
               type="submit"
-              bg="teal.300"
+              bg="green.300"
               fontSize="sm"
               color="white"
               fontWeight="bold"
@@ -248,10 +248,10 @@ function SignUp() {
               h="45"
               mb="24px"
               _hover={{
-                bg: "teal.200",
+                bg: "green.200",
               }}
               _active={{
-                bg: "teal.400",
+                bg: "green.400",
               }}
             >
               SIGN IN

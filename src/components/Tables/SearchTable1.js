@@ -118,7 +118,7 @@ function SearchTable1(props) {
             minW="75px"
             maxW="175px"
             fontSize="sm"
-            _focus={{ borderColor: "teal.300" }}
+            _focus={{ borderColor: "green.300" }}
             onChange={(e) => setGlobalFilter(e.target.value)}
           />
         </Flex>
@@ -245,7 +245,7 @@ function SearchTable1(props) {
                     w="40px"
                     h="40px"
                     borderRadius="160px"
-                    bg={pageNumber === pageIndex + 1 ? "teal.300" : "#fff"}
+                    bg={pageNumber === pageIndex + 1 ? "green.300" : "#fff"}
                     border="1px solid lightgray"
                     _hover={{
                       bg: "gray.200",

@@ -269,7 +269,7 @@ function Overview() {
                 ACCOUNT
               </Text>
               <Flex align="center" mb="20px">
-                <Switch colorScheme="teal" me="10px" />
+                <Switch colorScheme="green" me="10px" />
                 <Text
                   noOfLines={1}
                   fontSize="md"
@@ -280,7 +280,7 @@ function Overview() {
                 </Text>
               </Flex>
               <Flex align="center" mb="20px">
-                <Switch colorScheme="teal" me="10px" />
+                <Switch colorScheme="green" me="10px" />
                 <Text
                   noOfLines={1}
                   fontSize="md"
@@ -291,7 +291,7 @@ function Overview() {
                 </Text>
               </Flex>
               <Flex align="center" mb="20px">
-                <Switch colorScheme="teal" me="10px" />
+                <Switch colorScheme="green" me="10px" />
                 <Text
                   noOfLines={1}
                   fontSize="md"
@@ -310,7 +310,7 @@ function Overview() {
                 APPLICATION
               </Text>
               <Flex align="center" mb="20px">
-                <Switch colorScheme="teal" me="10px" />
+                <Switch colorScheme="green" me="10px" />
                 <Text
                   noOfLines={1}
                   fontSize="md"
@@ -321,7 +321,7 @@ function Overview() {
                 </Text>
               </Flex>
               <Flex align="center" mb="20px">
-                <Switch colorScheme="teal" me="10px" />
+                <Switch colorScheme="green" me="10px" />
                 <Text
                   noOfLines={1}
                   fontSize="md"
@@ -332,7 +332,7 @@ function Overview() {
                 </Text>
               </Flex>
               <Flex align="center" mb="20px">
-                <Switch colorScheme="teal" me="10px" />
+                <Switch colorScheme="green" me="10px" />
                 <Text
                   noOfLines={1}
                   fontSize="md"
@@ -423,28 +423,28 @@ function Overview() {
                 <Flex>
                   <Link
                     href="#"
-                    color="teal.300"
+                    color="green.300"
                     fontSize="lg"
                     me="10px"
-                    _hover={{ color: "teal.300" }}
+                    _hover={{ color: "green.300" }}
                   >
                     <Icon as={FaFacebook} />
                   </Link>
                   <Link
                     href="#"
-                    color="teal.300"
+                    color="green.300"
                     fontSize="lg"
                     me="10px"
-                    _hover={{ color: "teal.300" }}
+                    _hover={{ color: "green.300" }}
                   >
                     <Icon as={FaInstagram} />
                   </Link>
                   <Link
                     href="#"
-                    color="teal.300"
+                    color="green.300"
                     fontSize="lg"
                     me="10px"
-                    _hover={{ color: "teal.300" }}
+                    _hover={{ color: "green.300" }}
                   >
                     <Icon as={FaTwitter} />
                   </Link>
@@ -483,7 +483,7 @@ function Overview() {
                   <Text
                     fontSize="sm"
                     fontWeight="600"
-                    color="teal.300"
+                    color="green.300"
                     alignSelf="center"
                   >
                     REPLY
@@ -512,7 +512,7 @@ function Overview() {
                   <Text
                     fontSize="sm"
                     fontWeight="600"
-                    color="teal.300"
+                    color="green.300"
                     alignSelf="center"
                   >
                     REPLY
@@ -541,7 +541,7 @@ function Overview() {
                   <Text
                     fontSize="sm"
                     fontWeight="600"
-                    color="teal.300"
+                    color="green.300"
                     alignSelf="center"
                   >
                     REPLY
@@ -570,7 +570,7 @@ function Overview() {
                   <Text
                     fontSize="sm"
                     fontWeight="600"
-                    color="teal.300"
+                    color="green.300"
                     alignSelf="center"
                   >
                     REPLY
@@ -599,7 +599,7 @@ function Overview() {
                   <Text
                     fontSize="sm"
                     fontWeight="600"
-                    color="teal.300"
+                    color="green.300"
                     alignSelf="center"
                   >
                     REPLY
@@ -658,7 +658,7 @@ function Overview() {
                 <Flex justifyContent="space-between">
                   <Button
                     variant="outline"
-                    colorScheme="teal"
+                    colorScheme="green"
                     minW="110px"
                     h="36px"
                     fontSize="xs"
@@ -706,7 +706,7 @@ function Overview() {
                 <Flex justifyContent="space-between">
                   <Button
                     variant="outline"
-                    colorScheme="teal"
+                    colorScheme="green"
                     minW="110px"
                     h="36px"
                     fontSize="xs"
@@ -754,7 +754,7 @@ function Overview() {
                 <Flex justifyContent="space-between">
                   <Button
                     variant="outline"
-                    colorScheme="teal"
+                    colorScheme="green"
                     minW="110px"
                     h="36px"
                     fontSize="xs"

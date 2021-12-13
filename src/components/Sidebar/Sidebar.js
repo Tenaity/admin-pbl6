@@ -64,17 +64,17 @@ function Sidebar(props) {
   const createLinks = (routes) => {
     const { sidebarVariant } = props;
     // Chakra Color Mode
-    let activeBg = useColorModeValue("teal.300", "teal.300");
+    let activeBg = useColorModeValue("green.300", "green.300");
     let activeAccordionBg = useColorModeValue("white", "gray.700");
     let inactiveBg = useColorModeValue("white", "gray.700");
-    let inactiveColorIcon = useColorModeValue("teal.300", "teal.300");
+    let inactiveColorIcon = useColorModeValue("green.300", "green.300");
     let activeColorIcon = useColorModeValue("white", "white");
     let activeColor = useColorModeValue("gray.700", "white");
     let inactiveColor = useColorModeValue("gray.400", "gray.400");
     let sidebarActiveShadow = "0px 7px 11px rgba(0, 0, 0, 0.04)";
     // Here are all the props that may change depending on sidebar's state.(Opaque or transparent)
     if (sidebarVariant === "opaque") {
-      activeBg = useColorModeValue("teal.300", "teal.300");
+      activeBg = useColorModeValue("green.300", "green.300");
       inactiveBg = useColorModeValue("gray.100", "gray.600");
       activeColor = useColorModeValue("gray.700", "white");
       inactiveColor = useColorModeValue("gray.400", "gray.400");
@@ -190,7 +190,7 @@ function Sidebar(props) {
                         <Icon
                           as={FaCircle}
                           w="10px"
-                          color="teal.300"
+                          color="green.300"
                           display={sidebarWidth === 275 ? "block" : "none"}
                         />
                         <Text color={activeColor} my="auto" fontSize="sm">
@@ -254,7 +254,7 @@ function Sidebar(props) {
                         <Icon
                           as={FaCircle}
                           w="6px"
-                          color="teal.300"
+                          color="green.300"
                           display={sidebarWidth === 275 ? "block" : "none"}
                         />
                         <Text
@@ -310,7 +310,7 @@ function Sidebar(props) {
               <Box>
                 <HStack spacing="14px" py="15px" px="15px">
                   <IconBox
-                    bg="teal.300"
+                    bg="green.300"
                     color="white"
                     h="30px"
                     w="30px"
@@ -347,7 +347,7 @@ function Sidebar(props) {
                   <Icon
                     as={FaCircle}
                     w={activeRoute(prop.path.toLowerCase()) ? "10px" : "6px"}
-                    color="teal.300"
+                    color="green.300"
                     display={sidebarWidth === 275 ? "block" : "none"}
                   />
                   <Text
@@ -451,7 +451,7 @@ function Sidebar(props) {
         w={sidebarWidth === 275 ? "100%" : "77%"}
       >
         <IconBox width="35px" h="35px" bg="white" mb="auto">
-          <QuestionIcon color="teal.300" h="18px" w="18px" />
+          <QuestionIcon color="green.300" h="18px" w="18px" />
         </IconBox>
         <Text
           fontSize="sm"
@@ -576,10 +576,10 @@ export function SidebarResponsive(props) {
   const createLinks = (routes) => {
     const { sidebarVariant } = props;
     // Chakra Color Mode
-    let activeBg = useColorModeValue("teal.300", "teal.300");
+    let activeBg = useColorModeValue("green.300", "green.300");
     let activeAccordionBg = useColorModeValue("white", "gray.700");
     let inactiveBg = useColorModeValue("white", "gray.700");
-    let inactiveColorIcon = useColorModeValue("teal.300", "teal.300");
+    let inactiveColorIcon = useColorModeValue("green.300", "green.300");
     let activeColorIcon = useColorModeValue("white", "white");
     let activeColor = useColorModeValue("gray.700", "white");
     let inactiveColor = useColorModeValue("gray.400", "gray.400");
@@ -674,7 +674,7 @@ export function SidebarResponsive(props) {
                       </Flex>
                     ) : (
                       <HStack spacing={"22px"} ps="10px" ms="0px">
-                        <Icon as={FaCircle} w="10px" color="teal.300" />
+                        <Icon as={FaCircle} w="10px" color="green.300" />
                         <Text color={activeColor} my="auto" fontSize="sm">
                           {prop.name}
                         </Text>
@@ -721,7 +721,7 @@ export function SidebarResponsive(props) {
                       </Flex>
                     ) : (
                       <HStack spacing={"26px"} ps={"10px"} ms={"0px"}>
-                        <Icon as={FaCircle} w="6px" color="teal.300" />
+                        <Icon as={FaCircle} w="6px" color="green.300" />
                         <Text
                           color={inactiveColor}
                           my="auto"
@@ -755,7 +755,7 @@ export function SidebarResponsive(props) {
               <Box>
                 <HStack spacing="14px" py="15px" px="15px">
                   <IconBox
-                    bg="teal.300"
+                    bg="green.300"
                     color="white"
                     h="30px"
                     w="30px"
@@ -782,7 +782,7 @@ export function SidebarResponsive(props) {
                   <Icon
                     as={FaCircle}
                     w={activeRoute(prop.path.toLowerCase()) ? "10px" : "6px"}
-                    color="teal.300"
+                    color="green.300"
                   />
                   <Text
                     color={
@@ -875,7 +875,7 @@ export function SidebarResponsive(props) {
             h="18px"
             me="16px"
             ref={btnRef}
-            colorScheme="teal"
+            colorScheme="green"
             cursor="pointer"
             onClick={onOpen}
           />
@@ -921,7 +921,7 @@ export function SidebarResponsive(props) {
                     w="100%"
                   >
                     <IconBox width="35px" h="35px" bg="white" mb="auto">
-                      <QuestionIcon color="teal.300" h="18px" w="18px" />
+                      <QuestionIcon color="green.300" h="18px" w="18px" />
                     </IconBox>
                     <Text
                       fontSize="sm"

@@ -10,7 +10,7 @@ import { SearchIcon } from "@chakra-ui/icons";
 export function SearchBar(props) {
   const { variant, children, ...rest } = props;
   // Chakra Color Mode
-  const mainTeal = useColorModeValue("teal.300", "teal.300");
+  const maingreen = useColorModeValue("green.300", "green.300");
   const searchIconColor = useColorModeValue("gray.700", "gray.200");
   const inputBg = useColorModeValue("white", "gray.800");
   return (
@@ -19,10 +19,10 @@ export function SearchBar(props) {
       borderRadius="15px"
       w="200px"
       _focus={{
-        borderColor: { mainTeal },
+        borderColor: { maingreen },
       }}
       _active={{
-        borderColor: { mainTeal },
+        borderColor: { maingreen },
       }}
     >
       <InputLeftElement

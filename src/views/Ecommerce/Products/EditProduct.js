@@ -313,7 +313,7 @@ function EditProduct() {
                     wrap="wrap"
                     border="1px solid lightgray"
                     borderRadius="8px"
-                    _focus={{ borderColor: "teal.300" }}
+                    _focus={{ borderColor: "green.300" }}
                     minH="40px"
                     cursor="text"
                   >

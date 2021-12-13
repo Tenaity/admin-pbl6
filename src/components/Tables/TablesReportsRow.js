@@ -47,7 +47,7 @@ function TablesReportsRow(props) {
             h="8px"
             color={
               review === "Positive"
-                ? "teal.300"
+                ? "green.300"
                 : review === "Negative"
                 ? "red.500"
                 : "gray.700"
