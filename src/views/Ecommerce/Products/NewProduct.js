@@ -117,7 +117,7 @@ function NewProduct() {
   };
 
   // Chakra color mode
-  const textColor = useColorModeValue("gray.700", "white");
+  const textColor = useColorModeValue("gray.700", "black");
   const bgPrevButton = useColorModeValue("gray.100", "gray.100");
   const bgProfile = useColorModeValue(
     "hsla(0,0%,100%,.8)",
@@ -141,7 +141,9 @@ function NewProduct() {
         align="center"
       >
         <Box
-          bgImage={profileBgImage}
+          // bgImage={profileBgImage}
+          bg="green.400"
+          textColor="black"
           w="100%"
           h="300px"
           borderRadius="25px"
