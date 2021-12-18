@@ -76,9 +76,9 @@ function EditProduct() {
             fontWeight="bold"
             mb="10px"
           >
-            Make the changes below
+            Edit
           </Text>
-          <Text
+          {/* <Text
             fontSize="sm"
             color="gray.500"
             fontWeight="normal"
@@ -86,7 +86,7 @@ function EditProduct() {
           >
             We’re constantly trying to express ourselves and actualize our
             dreams. If you have the opportunity to play.
-          </Text>
+          </Text> */}
         </Flex>
         <Button
           variant="no-hover"
@@ -144,7 +144,7 @@ function EditProduct() {
               </Flex>
             </CardBody>
           </Card>
-          <Card>
+          {/* <Card>
             <CardHeader mb="32px">
               <Text fontSize="lg" color={textColor} fontWeight="bold">
                 Socials
@@ -172,7 +172,7 @@ function EditProduct() {
                 </FormControl>
               </Stack>
             </CardBody>
-          </Card>
+          </Card> */}
         </Stack>
         <Stack direction="column" spacing="24px">
           <Card>
@@ -198,12 +198,12 @@ function EditProduct() {
                   </FormControl>
                 </Stack>
                 <Stack direction={{ sm: "column", lg: "row" }} spacing="30px">
-                  <FormControl>
+                  {/* <FormControl>
                     <FormLabel fontSize="xs" fontWeight="bold" mb="10px">
                       Description
                     </FormLabel>
                     <Editor />
-                  </FormControl>
+                  </FormControl> */}
                   <Stack direction="column" spacing="20px" w="100%">
                     <FormControl>
                       <FormLabel fontSize="xs" fontWeight="bold" mb="10px">
@@ -268,7 +268,7 @@ function EditProduct() {
               </Stack>
             </CardBody>
           </Card>
-          <Card>
+          {/* <Card>
             <CardHeader mb="32px">
               <Text fontSize="lg" color={textColor} fontWeight="bold">
                 Pricing
@@ -355,7 +355,7 @@ function EditProduct() {
                 </FormControl>
               </Stack>
             </CardBody>
-          </Card>
+          </Card> */}
           <Card>
             <CardHeader>
               <Text color={textColor} fontSize="lg" fontWeight="bold" mb="22px">

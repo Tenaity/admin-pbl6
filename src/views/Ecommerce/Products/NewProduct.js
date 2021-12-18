@@ -153,7 +153,7 @@ function NewProduct() {
           display="flex"
           justifyContent="center"
         >
-          <Flex
+          {/* <Flex
             direction={{ sm: "column", md: "row" }}
             mx="1.5rem"
             maxH="330px"
@@ -299,7 +299,7 @@ function NewProduct() {
                 </Flex>
               </Button>
             </Flex>
-          </Flex>
+          </Flex> */}
         </Box>
       </Box>
       <Tabs variant="unstyled" mt="24px" alignSelf="center">
@@ -518,12 +518,12 @@ function NewProduct() {
                     </FormControl>
                   </Stack>
                   <Stack direction={{ sm: "column", lg: "row" }} spacing="30px">
-                    <FormControl>
+                    {/* <FormControl>
                       <FormLabel fontSize="xs" fontWeight="bold" mb="10px">
                         Description
                       </FormLabel>
                       <Editor />
-                    </FormControl>
+                    </FormControl> */}
                     <Stack direction="column" spacing="20px" w="100%">
                       <FormControl>
                         <FormLabel fontSize="xs" fontWeight="bold" mb="10px">
